@@ -1,5 +1,5 @@
 # vim
 
 ```sh
-wget https://raw.githubusercontent.com/TheYkk/vim/main/.vimrc -O ~/.vimrc
+curl -L -o ~/.vimrc https://kaan.uno
 ```
