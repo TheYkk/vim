@@ -139,7 +139,7 @@ set ruler
 set number
 
 let no_buffers_menu=1
-let g:material_theme_style='palenight'
+let g:material_theme_style='darker'
 colorscheme material
 
 
