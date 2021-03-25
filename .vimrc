@@ -49,7 +49,7 @@ Plug 'dense-analysis/ale'
 Plug 'Yggdroot/indentLine'
 Plug 'editor-bootstrap/vim-bootstrap-updater'
 Plug 'tpope/vim-rhubarb' " required by fugitive to :Gbrowse
-Plug 'dracula/vim', { 'as': 'dracula' }
+Plug 'kaicataldo/material.vim', { 'branch': 'main' }
 
 
 if isdirectory('/usr/local/opt/fzf')
@@ -139,7 +139,8 @@ set ruler
 set number
 
 let no_buffers_menu=1
-colorscheme dracula
+let g:material_theme_style='palenight'
+colorscheme material
 
 
 set mousemodel=popup
@@ -482,3 +483,12 @@ endif
 "*****************************************************************************
 set mouse=a
 set termguicolors
+
+"" performance tweaks
+set nocursorline
+set nocursorcolumn
+set scrolljump=5
+set lazyredraw
+set redrawtime=10000
+set synmaxcol=180
+set re=1
