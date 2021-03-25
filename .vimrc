@@ -492,3 +492,7 @@ set lazyredraw
 set redrawtime=10000
 set synmaxcol=180
 set re=1
+
+"" Shortcut
+
+nmap <leader>r :so ~/.vimrc<CR>
