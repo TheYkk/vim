@@ -7,7 +7,7 @@
 
 ## Download vimrc
 ```sh
-curl -L -o ~/.vimrc https://kaan.uno
+curl -L -o ~/.vimrc https://vim.theykk.net
 ```
 
 ## Install plugins
